@@ -1,0 +1,65 @@
+
+.header {
+    width: 90%;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.header button{
+    background-color: transparent;
+    border-color:#00ffff;
+    border-radius: 10px;
+    padding: 8px 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.header button a{
+    color: #00ffff;
+    font-size: 1rem;
+}
+
+.music{
+    display: flex;
+    color: #00ffff;
+    align-items: center;
+    margin-right: auto;
+}
+
+.header ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header a {
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 1rem;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #00ffff;
+}
+
+.music i{
+    font-size: 1.6rem;
+}
+
+.music h1{
+    font-size: 1.5rem;
+    margin-left: 0.6rem;
+}
+
+.header button:hover{
+    background-color: #ffff;
+    border-color: #ffff;
+}
+
+.header button:hover a{
+    color: #0C0C23;
+}

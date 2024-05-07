@@ -1,0 +1,17 @@
+html, body{
+    background-image: linear-gradient(120deg,
+    hsl(240deg 49% 9%) 0%,
+    hsl(245deg 47% 10%) 5%,
+    hsl(250deg 49% 12%) 12%,
+    hsl(254deg 48% 13%) 26%,
+    hsl(258deg 46% 14%) 75%,
+    hsl(264deg 45% 15%) 90%,
+    hsl(268deg 47% 16%) 96%,
+    hsl(274deg 46% 17%) 99%,
+    hsl(278deg 45% 19%) 100%,
+    hsl(283deg 45% 20%) 100%,
+    hsl(287deg 44% 21%) 100%);
+   
+    font-family: "Quicksand", sans-serif;
+    height: auto;
+}

@@ -1,0 +1,44 @@
+.cards{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card img{
+    border-radius: 80px 0px;
+    width: 80%;
+}
+
+.card{
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.card h3{
+    color: #fff;
+}
+
+.card h4{
+    margin-top: -1rem;
+    color: #fff;
+}
+
+.h2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h2{
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

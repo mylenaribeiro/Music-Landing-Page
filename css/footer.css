@@ -1,0 +1,49 @@
+footer{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.colunas{
+    display: flex;
+}
+
+.colunas ul li,a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.colunas li{
+    margin-bottom: 1rem;
+}
+
+.colunas ul{
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+}
+
+.icones a{
+    color: #00ffff;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-left: 2.4rem;
+    transition: 0.5s;
+}
+
+.rodape{
+    margin-left: 2.5rem;
+}
+
+.ul{
+    margin-left: 4rem;
+}
+
+li a:hover{
+    color: #00ffff;
+}
+
+.icones a:hover{
+    color: #fff;
+}
