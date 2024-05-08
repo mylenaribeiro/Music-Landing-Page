@@ -19,12 +19,12 @@
 }
 
 .card h3{
-    color: #fff;
+    color: var(--color-branco);
 }
 
 .card h4{
     margin-top: -1rem;
-    color: #fff;
+    color: var(--color-branco);
 }
 
 .h2{
@@ -35,7 +35,7 @@
 h2{
     margin-bottom: 4rem;
     margin-top: 5rem;
-    color: #fff;
+    color: var(--color-branco);
 }
 
 .card:hover{

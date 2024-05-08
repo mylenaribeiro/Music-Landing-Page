@@ -16,23 +16,22 @@ text-align: center;
 }
 
 .text1{
-    color: #ffff;
+    color: var(--color-branco);
 }
 
 .text2{
-    color:  #00ffff;;
+    color: var(--color-azul-claro);
 }
 
 .hero1 p{
     width: 60%;
     margin: 0 auto;
-    color: #ffff;
+    color: var(--color-branco);
 }
-
 
 .conteudo1 button{
     background-color: transparent;
-    border-color:#00ffff;
+    border-color:var(--color-azul-claro);
     border-radius: 10px;
     padding: 8px 30px;
     font-family: "Quicksand", sans-serif;
@@ -41,22 +40,22 @@ text-align: center;
 }
 
 .conteudo1 a:hover {
-    color: #0C0C23;
+    color: var(--color-azul-escuro);
 }
 
 .conteudo1 button a{
-    color: #00ffff;
+    color: var(--color-azul-claro);
     font-size: 1rem;
     text-decoration: none;
 }
 
 .conteudo1 button:hover{
-    background-color: #ffff;
-    border-color: #ffff;
+    background-color: var(--color-branco);
+    border-color: var(--color-branco);
 }
 
 .conteudo1 button:hover a{
-    color: #0C0C23;
+    color: var(--color-azul-escuro);
 }
 
 .hero1 .image1 img{
@@ -67,7 +66,7 @@ text-align: center;
 .image1{
     height: 400px;
     width: 50%;
-    background-color:hsla(287, 44%, 21%, 0.418) ;
+    background-color: var(--color-purple) ;
     text-align: center;
     border-radius: 80px 0px;
     transition: .5s;
@@ -95,12 +94,13 @@ text-align: center;
     .hero2 p{
         width: 60%;
         margin: 0 auto;
-        color: #ffff;
+        color: var(--color-branco);
     }
+    
     
     .conteudo2 button{
         background-color: transparent;
-        border-color:#00ffff;
+        border-color:var(--color-azul-claro);
         border-radius: 10px;
         padding: 8px 30px;
         font-family: "Quicksand", sans-serif;
@@ -109,46 +109,43 @@ text-align: center;
     }
     
     .conteudo2 a:hover {
-        color: #0C0C23;
+        color: var(--color-azul-escuro);
         transition: 0.5s;
-        
     }
-
     .conteudo2 button a{
-        color: #00ffff;
+        color: var(--color-azul-claro);
         font-size: 1rem;
         text-decoration: none;
     }
 
     .conteudo2 button:hover{
-        background-color: #ffff;
-        border-color: #ffff;
+        background-color: var(--color-branco);
+        border-color: var(--color-branco);
     }
-    
+
     .conteudo2 button:hover a{
-        color: #0C0C23;
+        color: var(--color-azul-escuro);
     }
     
     .hero2 .image2 img{
         border-radius: 0px 0px 80px 80px;
         height: 400px;
-        transition: 0.5s;
     }
     
     .image2{
         height: 400px;
         width: 50%;
-        background-color:hsla(287, 44%, 21%, 0.418) ;
+        background-color:var(--color-purple);
         text-align: center;
         border-radius: 80px 0px;
         transition: .5s;
     }
 
-    .hero2:hover .image2 {
+    .hero2:hover .image2{
         transform: scale(1.1);
     }
-    
-   .hero1:hover .image1 {
+
+   .hero1:hover .image1{
     transform: scale(1.1);
    }
 

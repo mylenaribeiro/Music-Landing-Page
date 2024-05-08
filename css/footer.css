@@ -11,7 +11,7 @@ footer{
 .colunas ul li,a{
     text-decoration: none;
     list-style-type: none;
-    color: #fff;
+    color: var(--color-branco);
     transition: 0.5s;
 }
 
@@ -25,7 +25,7 @@ footer{
 }
 
 .icones a{
-    color: #00ffff;
+    color: var(--color-azul-claro);
     font-size: 1.4rem;
     margin-bottom: 1rem;
     margin-left: 2.4rem;
@@ -41,9 +41,9 @@ footer{
 }
 
 li a:hover{
-    color: #00ffff;
+    color: var(--color-azul-claro);
 }
 
 .icones a:hover{
-    color: #fff;
+    color: var(--color-branco);
 }

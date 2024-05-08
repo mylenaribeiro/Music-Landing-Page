@@ -15,3 +15,10 @@ html, body{
     font-family: "Quicksand", sans-serif;
     height: auto;
 }
+
+:root{
+    --color-azul-claro: #00ffff;
+    --color-azul-escuro:#0C0C23;
+    --color-branco: #ffff;
+    --color-purple: hsla(287, 44%, 21%, 0.418);
+}
