@@ -141,11 +141,11 @@ text-align: center;
         transition: .5s;
     }
 
-    .hero2:hover .image2{
+    .hero2 .image2:hover{
         transform: scale(1.1);
     }
 
-   .hero1:hover .image1{
+   .hero1 .image1:hover{
     transform: scale(1.1);
    }
 
